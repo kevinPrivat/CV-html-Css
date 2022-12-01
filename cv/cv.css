@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    background-color: beige;
+    border: 2px solid black;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 8px 8px 12px #aaa;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.titreprincipal  {
+    text-align: center;
+    /*color: #7b68ee; */
+    margin-top: -10%;
+    margin-right: 30%;
+}
+
+.nomprenom {
+    text-align: center;
+    margin-right: 38%;
+}
+
+.soustitre {
+    text-align: center;
+    margin-left: 10px;
+    width: 12%;
+    padding: 5px;
+    /*background-color: #003147;*/
+    border-radius: 20px;
+    /*color: aliceblue;*/
+}
+
+.fb {
+    /*color: aliceblue;*/
+    text-align: center;
+    margin-left: 220px;
+    width: 12%;
+    padding: 5px;
+    /*background-color: #483D8B;*/
+    border-radius: 20px;
+    
+}
+
+.listecontact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+h3 {
+    margin-right: 38%;
+    /*color:aliceblue;*/
+}
+
+time {
+    margin-left: 70%;
+}
+
+p {
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 10%;
+    text-align: justify;
+    /*color: aliceblue;
+    text-transform: uppercase;*/
+}
+
+.separateur {
+    width: 50%;
+}
+
+.image {
+    display: flex;
+    margin-left: 2%;
+    margin-block-start:  5%;
+}
+
+/*.blocCouleur {
+    background-color: #483D8B;
+    padding: 10px;
+    margin: 50px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+}*/
+
+.imgIcon {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.listeSkill {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.listeIcons {
+    margin-bottom: 40px;
+}
